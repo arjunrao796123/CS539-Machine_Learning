@@ -6,3 +6,4 @@ After the data pre-proecessing, we also perform the random forest model in the s
 To perfrom other models like support vector classifier, neural networks and logistic regresssion, run the logistic_SVC_NN.ipynb file after preprocessing..
 To visualize what we have done, we created an interface which can be viewed by running the app.py file.
 When you run the app.py file, copy and paste the url in a browser and use the project as a web application.
+Due to the volume of the dataset, it will take a minute to compute the decision.
