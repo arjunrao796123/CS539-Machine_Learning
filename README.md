@@ -7,4 +7,4 @@ To perfrom other models like support vector classifier, neural networks and logi
 To visualize what we have done, we created an interface which can be viewed by running the app.py file.
 When you run the app.py file, copy and paste the url in a browser and use the project as a web application.
 Due to the volume of the dataset, it will take a minute to compute the decision.
-Here is a link to our website:- https://sites.google.com/s/1UGLMcyENr-0I5L75R711q6riQSpm2IGS/p/13sXGYoRN4LBlRvQlh5RC5sIuClFbII_p/edit
+Here is a link to our website:- https://sites.google.com/view/cs539project-h1bcaseprediction/home
