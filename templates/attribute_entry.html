@@ -1,0 +1,319 @@
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+<head>
+    <title>H1B Case Prediction Model - Attribute_Entry</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+    <link rel="stylesheet" href="static/css/main.css"/>
+    <link rel="stylesheet" href="static/css/style.css">
+    <noscript>
+        <link rel="stylesheet" href="static/css/noscript.css"/>
+    </noscript>
+
+
+</head>
+<body class="is-preload">
+
+<!-- Sidebar -->
+<section id="sidebar">
+    <div class="inner">
+        <nav>
+            <ul>
+                <li><font face = "Comic sans MS" size = "5">H1B Case Prediction Model</font></li>
+            </ul>
+        </nav>
+        <br>
+    </div>
+</section>
+
+<!-- Wrapper -->
+<div id="wrapper">
+
+    <!-- Intro -->
+    <section id="intro" class="wrapper style1 fullscreen fade-up">
+        <div class="inner">
+
+            <form name="ae" action="/yes" method="post" act>
+                
+                
+                <label> Full Time Position:<br />
+                    <input type="radio" name="FULL_TIME_POSITION" value="Y" required>Yes<br />
+                    <input type="radio" name="FULL_TIME_POSITION" value="N">No<br />
+                <br><br></label>
+                
+                <label> Annual Income Level:<br />
+                    <input type="radio" name="PW_WAGE_LEVEL" value="<Level I" required>Level 1<br />
+                    <input type="radio" name="PW_WAGE_LEVEL" value="Level II">Level 2<br />
+                    <input type="radio" name="PW_WAGE_LEVEL" value="Level III">Level 3<br />
+                    <input type="radio" name="PW_WAGE_LEVEL" value="Level IV">Level 4<br />
+                <br><br></label>
+                
+                <label> Income Mode:<br />
+                    <input type="radio" name="PW_SOURCE" value="OES" required>OES<br />
+                    <input type="radio" name="PW_SOURCE" value="CBA">CBA<br />
+                    <input type="radio" name="PW_SOURCE" value="DBA">DBA<br />
+                    <input type="radio" name="PW_SOURCE" value="SCA">SCA<br />
+                    <input type="radio" name="PW_SOURCE" value="Other">Others<br />
+                <br><br></label>
+
+                <label> Agent's City (Select 'None' if no Agent):
+                    <select name="AGENT_ATTORNEY_CITY_BIN">
+                        <option value="" selected disabled hidden>--Select--</option>
+                        <option value="Bin1" required>FLUSHING</option>
+                        <option value="Bin1">ORLANDO</option>
+                        <option value="Bin1">FORT LAUDERDALE</option>
+                        <option value="Bin1">KANSAS CITY</option>
+                        <option value="Bin1">RALEIGH</option>
+                        <option value="Bin1">WILTON</option>
+                        <option value="Bin1">CHARLOTTE</option>
+                        <option value="Bin1">MIAMI</option>
+                        <option value="Bin1">CORAL GABLES</option>
+                        <option value="Bin1">PORTLAND</option>
+                        <option value="Bin1">RICHARDSON</option>
+                        <option value="Bin1">MEMPHIS</option>
+                        <option value="Bin1">BALTIMORE</option>
+                        <option value="Bin1">SAN DIEGO</option>
+                        <option value="Bin1">NEWARK</option>
+                        <option value="Bin1">MILWAUKEE</option>
+                        <option value="Bin1">COLUMBUS</option>
+                        <option value="Bin1">WOODLAND HILLS</option>
+                        <option value="Bin1">MCLEAN</option>
+                        <option value="Bin1">LOS ANGELES</option>
+                        <option value="Bin1">CINCINNATI</option>
+                        <option value="Bin1">VANCOUVER</option>
+                        <option value="Bin1">DALLAS</option>
+                        <option value="Bin1">MINNEAPOLIS</option>
+                        <option value="Bin1">HOUSTON</option>
+                        <option value="Bin1">MADISON</option>
+                        <option value="Bin1">DENVER</option>
+                        <option value="Bin1">ANN ARBOR</option>
+                        <option value="Bin1">AUSTIN</option>
+                        <option value="Bin1">MATAWAN</option>
+                        <option value="Bin1">HARTFORD</option>
+                        <option value="Bin1">ARLINGTON</option>            
+                        <option value="Bin2">ATLANTA</option>
+                        <option value="Bin2">SANTA MONICA</option>
+                        <option value="Bin2">SEATTLE</option>
+                        <option value="Bin2">COLUMBIA</option>
+                        <option value="Bin2">RICHMOND</option>
+                        <option value="Bin2">TAMPA</option>
+                        <option value="Bin2">ALLEN</option>
+                        <option value="Bin2">PHOENIX</option>
+                        <option value="Bin2">NEW YORK</option>
+                        <option value="Bin2">JACKSONVILLE</option>
+                        <option value="Bin2">SANTA CLARA</option>
+                        <option value="Bin2">IRVINE</option>
+                        <option value="Bin3">FREMONT</option>
+                        <option value="Bin3">ENOLA</option>
+                        <option value="Bin3">PHILADELPHIA</option>
+                        <option value="Bin3">LAKE SUCCESS</option>
+                        <option value="Bin3">SALT LAKE CITY</option>
+                        <option value="Bin3">TORONTO</option>
+                        <option value="Bin3">OAKLAND</option>
+                        <option value="Bin3">DULUTH</option>
+                        <option value="Bin3">OMAHA</option>
+                        <option value="Bin3">BOSTON</option>
+                        <option value="Bin3">SAN JOSE</option>
+                        <option value="Bin4">SAN FRANCISCO</option>
+                        <option value="Bin4">CHICAGO</option>
+                        <option value="Bin4">ST. LOUIS</option>
+                        <option value="Bin4">ROCKVILLE</option>
+                        <option value="Bin4">LOS ALTOS</option>
+                        <option value="Bin4">CLEVELAND</option>
+                        <option value="Bin4">GAINESVILLE</option>
+                        <option value="Bin4">WASHINGTON</option>
+                        <option value="Bin4">ADDISON</option>
+                        <option value="Bin4">PITTSBURGH</option>
+                        <option value="Bin4">TROY</option>
+                        <option value="Bin4">HERNDON</option>
+                        <option value="Bin4">BUFFALO</option>
+                        <option value="Bin4">INDIANAPOLIS</option>
+                        <option value="Bin4">POTOMAC</option>
+                        <option value="Bin4">CLAWSON</option>
+                        <option value="Bin4">TRUMBULL</option>
+                        <option value="Bin4">WHITE PLAINS</option>
+                        <option value="Bin4">FRAMINGHAM</option>
+                        <option value="Bin4">DETROIT</option>
+                        <option value="Bin4">PRINCETON</option>
+                        <option value="Bin4">IRVING</option>
+                        <option value="Bin4">CAMBRIDGE</option>
+                        <option value="Bin5">BLOOMFIELD HILLS</option>
+                        <option value="Bin5">CERRITOS</option>
+                        <option value="Bin5">OWINGS MILLS</option>
+                        <option value="Bin5">ALPHARETTA</option>
+                        <option value="Bin5">SUWANEE</option>
+                        <option value="Bin5">EDISON</option>
+                        <option value="Bin5">GAITHERSBURG</option>
+                        <option value="Bin5">CALABASAS HILLS</option>
+                        <option value="Bin5">LIVONIA</option>
+                        <option value="Bin5">HAMDEN</option>
+                        <option value="Bin5">ISELIN</option>
+                        <option value="Bin5">RESTON</option>
+                        <option value="Bin5">WORCESTER</option>
+                        <option value="Bin5">SCHAUMBURG</option>
+                        <option value="Bin5">WEST BLOOMFIELD</option>
+                        <option value="Bin5">ASHBURN</option>
+                        <option value="Bin5">WOBURN</option>
+                        <option value="Bin5">FARMINGTON HILLS</option>
+                        <option value="Bin5">EAST BRUNSWICK</option>
+                        <option value="Bin5">DUBLIN</option>
+                        <option value="Bin5">SOUTH PLAINFIELD</option>
+                        <option value="Others">Others</option>
+                        <option value="None">None</option>
+                    </select><br></label>
+
+                <label> Employer Name:
+                    <select name="EMPLOYER_NAME_BIN">
+                        <option value="" selected disabled hidden>--Select--</option>
+                        <option value="Bin1" required>NTT DATA, INC.</option>
+                        <option value="Bin1">GOOGLE LLC</option>
+                        <option value="Bin1">KPMG LLP</option>
+                        <option value="Bin1">PAYPAL, INC.</option>
+                        <option value="Bin1">GOLDMAN SACHS & CO. LLC</option>
+                        <option value="Bin1">DELOITTE & TOUCHE LLP</option>
+                        <option value="Bin1">TESLA, INC.</option>
+                        <option value="Bin1">VMWARE, INC.</option>
+                        <option value="Bin1">APPLE INC.</option>
+                        <option value="Bin1">POPULUS GROUP LLC</option>
+                        <option value="Bin1">EBAY INC.</option>
+                        <option value="Bin1">JPMORGAN CHASE & CO.</option>
+                        <option value="Bin1">DELOITTE CONSULTING LLP</option> 
+                        <option value="Bin2">AMAZON WEB SERVICES, INC.</option> 
+                        <option value="Bin2">BANK OF AMERICA N.A.</option>
+                        <option value="Bin2">IBM CORPORATION</option>
+                        <option value="Bin2">ERNST & YOUNG U.S. LLP</option>
+                        <option value="Bin2">FACEBOOK, INC.</option>
+                        <option value="Bin2">VIRTUSA CORPORATION</option>
+                        <option value="Bin2">V-SOFT CONSULTING GROUP, INC</option>
+                        <option value="Bin2">AMAZON.COM SERVICES, INC.</option>
+                        <option value="Bin2">SALESFORCE.COM INC.</option>
+                        <option value="Bin2">IBM INDIA PRIVATE LIMITED</option>
+                        <option value="Bin2">PRICEWATERHOUSECOOPERS LLP</option>
+                        <option value="Bin2">COMPUNNEL SOFTWARE GROUP, INC.</option>
+                        <option value="Bin3">PRICEWATERHOUSECOOPERS ADVISORY SERVICES LLC</option>
+                        <option value="Bin3">LINKEDIN CORPORATION</option>
+                        <option value="Bin3">PEOPLE TECH GROUP INC.</option>
+                        <option value="Bin3">KFORCE INC.</option>
+                        <option value="Bin3">MASTECH DIGITAL TECHNOLOGIES, INC.</option>
+                        <option value="Bin3">A MASTECH DIGITAL, INC. COMPANY</option>
+                        <option value="Bin3">L&T TECHNOLOGY SERVICES LIMITED</option>
+                        <option value="Bin3">INTEL CORPORATION</option>
+                        <option value="Bin3">LARSEN & TOUBRO INFOTECH LIMITED</option>
+                        <option value="Bin3">UST GLOBAL INC.</option>
+                        <option value="Bin3">CAPGEMINI AMERICA INC</option>
+                        <option value="Bin3">WIPRO LIMITED</option>
+                        <option value="Bin3">WAL-MART ASSOCIATES, INC.</option>
+                        <option value="Bin4">TATA CONSULTANCY SERVICES LIMITED</option>
+                        <option value="Bin4">RANDSTAD TECHNOLOGIES, LLC</option>
+                        <option value="Bin4">SYNTEL INC</option>
+                        <option value="Bin4">HCL AMERICA, INC.</option>
+                        <option value="Bin4">TECH MAHINDRA (AMERICAS),INC.</option>
+                        <option value="Bin4">ACCENTURE LLP</option>
+                        <option value="Bin5">COGNIZANT TECHNOLOGY SOLUTIONS US CORP</option>
+                        <option value="Bin5">INFOSYS LIMITED</option>
+                        <option value="Bin5">MICROSOFT CORPORATION</option>
+                        <option value="Bin5">COGNIZANT TECHNOLOGY SOLUTIONS U.S. CORPORATION</option>
+                        <option value="Bin5">HEXAWARE TECHNOLOGIES, INC.</option>
+                        <option value="Bin5">UBER TECHNOLOGIES, INC.</option>
+                        <option value="Bin5">MINDTREE LIMITED</option>
+                        <option value="Others">Others</option>
+                    </select><br></label>
+
+                <label> Employer State:
+                    <select name="EMPLOYER_STATE_BIN">
+                        <option value="" selected disabled hidden>--Select--</option>
+                        <option value="Bin1" required>CA</option>
+                        <option value="Bin2">NJ</option>
+                        <option value="Bin3">TX</option>
+                        <option value="Bin4">NY</option>
+                        <option value="Bin4">IL</option>
+                        <option value="Bin5">PA</option>
+                        <option value="Bin5">MI</option>
+                        <option value="Bin6">MA</option>
+                        <option value="Bin6">MD</option>
+                        <option value="Bin6">WA</option>
+                        <option value="Bin7">VA</option>
+                        <option value="Bin7">FL</option>
+                        <option value="Bin7">GA</option> 
+                        <option value="Others">Others</option>
+                    </select><br></label>
+                    
+                    <label> Standard Occupational Classification (SOC) Code - First two characters:
+                    <select name="SOC_REVISED_CODE">
+                        <option value="" selected disabled hidden>--Select--</option>
+                        <option value="15" required>15</option>
+                        <option value="13">13</option>
+                        <option value="19">19</option>
+                        <option value="29">29</option>
+                        <option value="17">17</option>
+                        <option value="25">25</option>
+                        <option value="20">20</option>
+                        <option value="51">51</option>
+                        <option value="27">27</option>
+                        <option value="23">23</option>
+                        <option value="11">11</option>
+                        <option value="41">41</option>
+                        <option value="43">43</option>
+                        <option value="21">21</option>
+                        <option value="45">45</option>
+                        <option value="47">47</option> 
+                        <option value="35">35</option> 
+                        <option value="49">49</option> 
+                        <option value="53">53</option> 
+                        <option value="39">39</option> 
+                        <option value="31">31</option> 
+                        <option value="33">33</option> 
+                        <option value="37">37</option> 
+                        <option value="16">16</option> 
+                        <option value="SO">SO</option> 
+                        <option value="40">40</option> 
+                        <option value="73">73</option> 
+                        <option value="50">50</option> 
+                        <option value="75">75</option> 
+                        <option value="38">38</option> 
+                        <option value="18">18</option> 
+                        <option value="12">12</option> 
+                        <option value="46">46</option> 
+                        <option value="AC">AC</option> 
+                        <option value="AI">AI</option> 
+                        <option value="24">24</option> 
+                        <option value="71">71</option> 
+                        <option value="28">28</option> 
+                        <option value="36">36</option> 
+                        <option value="26">26</option> 
+                        <option value="79">79</option> 
+                        <option value="EL">EL</option> 
+                        <option value="74">74</option> 
+                        <option value="10">10</option> 
+                        <option value="22">22</option> 
+                        <option value="CO">CO</option> 
+                    </select><br></label>
+                
+
+                <input type="submit" value="Submit">
+            </form>
+
+            <script src='https://cdnjs.cloudflare.com/ajax/libs/cropperjs/0.8.1/cropper.min.js'></script>
+
+
+            <script src="static/js/index.js"></script>
+
+        </div>
+    </section>
+
+    <!-- Scripts -->
+    <script src="static/js/lib/jquery.min.js"></script>
+    <script src="static/js/lib/jquery.scrollex.min.js"></script>
+    <script src="static/js/lib/jquery.scrolly.min.js"></script>
+    <script src="static/js/lib/browser.min.js"></script>
+    <script src="static/js/lib/breakpoints.min.js"></script>
+    <script src="static/js/util.js"></script>
+    <script src="static/js/main.js"></script>
+    
+</body>
+</html>
